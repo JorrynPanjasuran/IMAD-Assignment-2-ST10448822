@@ -19,14 +19,17 @@ The design of the app follows the Model-View-Controller (MVC) architectural patt
 
 **3.Screens and GUI use:**
 The user interface (UI) for this Tamagotchi-like app consists of three main screens, each designed to provide a different functionality to the user.
-**Welcome Screen (MainActivity):**
+**Welcome Screen (MainActivity):**![Cover Screen 1](https://github.com/JorrynPanjasuran/IMAD-Assignment-2-ST10448822/assets/163964500/7ff57a89-503b-4b2b-bf59-2ab31264f8be)
+
 This screen serves as the entry point to the app.
 -It features two buttons:
 "Play Game!" Button: Initiates the game and transitions the user to the main gameplay screen (MainActivity2).
 "Instructions" Button: Provides instructions on how to play the game and takes the user to the instructions screen (MainActivity3).
 -The background of this screen features an image that sets the theme of the game, creating a visually engaging introduction.
 
-**Gameplay Screen (MainActivity2):**
+**Gameplay Screen (MainActivity2):**![Play screen 2](https://github.com/JorrynPanjasuran/IMAD-Assignment-2-ST10448822/assets/163964500/8d1c8583-0cd0-49fd-9cf7-35f27461952f)
+![Hunger Screen 2](https://github.com/JorrynPanjasuran/IMAD-Assignment-2-ST10448822/assets/163964500/828b4e2f-ad7a-4e69-a204-0e9a1375f1b2)
+
 This screen is where the main interaction with the virtual pet takes place.
 Key elements of this screen include:
 -Pet Image View: Displays an image representing the virtual pet.
@@ -36,7 +39,8 @@ Key elements of this screen include:
 -Alert Text View: Displays a message alerting the user if any of the pet's status indicators fall below a certain threshold.
 -Back Button: Allows the user to navigate back to the welcome screen (MainActivity).
 
-**Instructions Screen (MainActivity3):**
+**Instructions Screen (MainActivity3):**![instructionsthree](https://github.com/JorrynPanjasuran/IMAD-Assignment-2-ST10448822/assets/163964500/7ad415d4-d551-4379-b7e3-ad1c6a76d1bf)
+
 This screen provides guidance to the user on how to play the game.
 -It consists of explanatory text and a "Back" button.
 -The "Back" button returns the user to the welcome screen (MainActivity).
@@ -44,6 +48,10 @@ Each screen is designed with a ConstraintLayout, enabling flexible positioning o
 
 **4.Personal design inspiration and touches**
 Each screen and background is crafted and artistically made. The colours used match each other well, and the image styles are similar.
+![corgiplain](https://github.com/JorrynPanjasuran/IMAD-Assignment-2-ST10448822/assets/163964500/e42fc894-ad42-4b8b-b615-74d3be84ca51)
+![corgiplay](https://github.com/JorrynPanjasuran/IMAD-Assignment-2-ST10448822/assets/163964500/05b8be2f-15a9-48e4-b544-3c3181dda429)
+![corgieat](https://github.com/JorrynPanjasuran/IMAD-Assignment-2-ST10448822/assets/163964500/3bf5a275-04e1-42d1-92d8-43930bbc5ee3)
+![corgibath](https://github.com/JorrynPanjasuran/IMAD-Assignment-2-ST10448822/assets/163964500/d755889b-5b90-4824-b42f-fc51e00db495)
 
 **5. GitHub and GitHub Actions**
 The Happy Pet Haven app is developed and managed using GitHub, a popular version control platform. GitHub provides the following benefits for the app's development:
@@ -51,7 +59,8 @@ The Happy Pet Haven app is developed and managed using GitHub, a popular version
 **Issue Tracking**: The app's developers, other learners, or lecturers can use GitHub's issue tracking system to manage bug reports, feature requests, and other project-related tasks.
 **Continuous Integration and Deployment:** GitHub Actions, a powerful automation tool, can be used to set up a continuous integration (CI) and continuous deployment (CD) pipeline. This ensures that the app is automatically built, tested, and deployed upon code changes, improving the development workflow and release process.
 **Collaboration:** GitHub's collaborative features enable the development team to work together effectively, review code changes, and discuss project-related topics.
-**Documentation:** The app's documentation, including this report, can be stored and versioned within the GitHub repository, making it easily accessible to the development team and stakeholders. We submitted a Readme file as documentation
+**Documentation:** The app's documentation, including this report, can be stored and versioned within the GitHub repository, making it easily accessible to the development team and stakeholders. We submitted a Readme file as documentation![image](https://github.com/JorrynPanjasuran/IMAD-Assignment-2-ST10448822/assets/163964500/76e326f4-b498-47e4-be56-d7b857e1dbc3)
+
 
 **6.Conclusion**
 In conclusion, this report has provided an overview of the Android application's purpose, design considerations, and the utilization of GitHub and GitHub Actions. 
